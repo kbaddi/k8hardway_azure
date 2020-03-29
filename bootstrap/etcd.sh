@@ -7,15 +7,15 @@
 # Download etcd binaries
 
 wget -q --show-progress --https-only --timestamping \
-  "https://github.com/etcd-io/etcd/releases/download/v3.4.0/etcd-v3.4.0-linux-amd64.tar.gz"
+  "https://github.com/etcd-io/etcd/releases/download/v3.4.3/etcd-v3.4.3-linux-amd64.tar.gz"
 
-# untar the binary
+# untar the binary    
 
-tar -xvf etcd-v3.4.0-linux-amd64.tar.gz
+tar -xvf etcd-v3.4.3-linux-amd64.tar.gz
 
 #Move to /usr/local/bin 
 
-sudo mv etcd-v3.4.0-linux-amd64/etcd* /usr/local/bin/
+sudo mv etcd-v3.4.3-linux-amd64/etcd* /usr/local/bin/
 
 # Configure the etcd Server
 
@@ -67,19 +67,19 @@ EOF
 
 
 
-
-
-
-
+# Enable and start etcd service
 sudo systemctl daemon-reload
 sudo systemctl enable etcd
 sudo systemctl start etcd
 
+# check the status of etcd service
+sudo systemctl status etcd
+
 
 # Verification
 
-sudo ETCDCTL_API=3 etcdctl member list \
-  --endpoints=https://127.0.0.1:2379 \
-  --cacert=/etc/etcd/ca.pem \
-  --cert=/etc/etcd/kubernetes.pem \
-  --key=/etc/etcd/kubernetes-key.pem
+  sudo ETCDCTL_API=3 etcdctl member list \
+    --endpoints=https://127.0.0.1:2379 \
+    --cacert=/etc/etcd/ca.pem \
+    --cert=/etc/etcd/kubernetes.pem \
+    --key=/etc/etcd/kubernetes-key.pem

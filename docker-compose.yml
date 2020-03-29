@@ -1,0 +1,14 @@
+version: "3.6"
+services:
+  terraform:
+    build: ./
+    volumes:
+      - "./Terraform:/Terraform"
+      - "/${HOME}/.ssh:/root/.ssh"
+    environment:
+      - ARM_CLIENT_ID=${ARM_CLIENT_ID}
+      - ARM_CLIENT_SECRET=${ARM_CLIENT_SECRET}
+      - ARM_TENANT_ID=${ARM_TENANT_ID}
+      - ARM_SUBSCRIPTION_ID=${ARM_SUBSCRIPTION_ID}
+      - PATH=/:${PATH}
+    tty: true

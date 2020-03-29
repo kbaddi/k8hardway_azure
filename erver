@@ -1,0 +1,175 @@
+[33mcommit dafa07bc272a476dabb4a4e0216c996caf450dff[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Kiran Baddi <kiran.baddi@axelerant.com>
+Date:   Sun Mar 29 10:19:04 2020 +0530
+
+    1.15.3 working version
+
+[33mcommit 0797082d1448bf8783ed846abe63920031a95607[m
+Author: Kiran Baddi <kiran.baddi@axelerant.com>
+Date:   Sun Mar 29 10:14:58 2020 +0530
+
+    1.15.3 working version
+
+[33mcommit 6e5394d2ee4aa3ca0eee533e9533e0a86b3db55d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Kiran <kiran@axelerant.com>
+Date:   Sat Mar 21 12:37:17 2020 +0530
+
+    upgraded to 0.12
+
+[33mcommit bd2cf355b644f9d8eeae1d0d983e4e457e7a705b[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Fri Jul 26 18:59:15 2019 +0530
+
+    syntax errors fixed
+
+[33mcommit 16172c21adee73b31678c5bcf79660473e0e710b[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Fri Jul 26 07:21:22 2019 +0530
+
+    removed public IP for worker
+
+[33mcommit 49d02f9375bf5cc564cdb7127781424bc2000b1e[m
+Author: Kiran <kbaddi@baddian.baddi>
+Date:   Tue Jul 2 23:43:34 2019 +0530
+
+    Readme updated
+
+[33mcommit af4b6e8f4aa19cd1331779cc21fc4ce120274929[m
+Author: Kiran <kbaddi@baddian.baddi>
+Date:   Tue Jul 2 14:50:59 2019 +0530
+
+    redundant folder removed
+
+[33mcommit f23695938e223addf20ce80a3144aabefdcd8949[m
+Author: Kiran <kbaddi@baddian.baddi>
+Date:   Tue Jul 2 14:36:35 2019 +0530
+
+    Azure SP login
+
+[33mcommit 3ef4199d31de460e7205fd0a91767eed6b9c91fc[m
+Author: Kiran Baddi <baddy420@gmail.com>
+Date:   Sun Jun 30 01:20:17 2019 +0530
+
+    Delete terraform-provider-template_v2.1.2_x4
+
+[33mcommit 313282f06678510d83f0e8a6fb727418a213e9cb[m
+Author: Kiran Baddi <baddy420@gmail.com>
+Date:   Sun Jun 30 01:19:53 2019 +0530
+
+    Delete lock.json
+
+[33mcommit eeccf3ccb948c36c5f4ab85daf35680731cac95e[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Thu Jun 27 16:13:33 2019 +0530
+
+    sync
+
+[33mcommit 2056536659c699a14eb3b9d8d05ea060d998414e[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Thu Jun 27 14:36:31 2019 +0530
+
+    Synced up
+
+[33mcommit e430370610c64d7f7b75dfa5e38b4c86d6ddd40e[m
+Merge: 910a2e0 d4ebda5
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Thu Jun 27 10:55:39 2019 +0530
+
+    Merge branch 'master' of github.com:kbaddi/k8hardway
+
+[33mcommit d4ebda5c943d7d4fd5dc648eaa6875091a58faf4[m
+Author: Kiran <kbaddi@baddian.baddi>
+Date:   Thu Jun 27 09:25:33 2019 +0530
+
+    compose with az login
+
+[33mcommit 910a2e06fd9b7d7c036ca46dca0c4b52558d9756[m
+Merge: 151a586 a5fecb6
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Mon Jun 17 13:00:34 2019 +0530
+
+    Merge branch 'master' of github.com:kbaddi/k8hardway
+
+[33mcommit 151a586ed3496191e6072ffaa69d84dcb674f651[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Mon Jun 17 13:00:05 2019 +0530
+
+    revert
+
+[33mcommit a5fecb64922bcce7cfc72ecaba9043c75127fc1d[m
+Author: Kiran <kbaddi@baddian.baddi>
+Date:   Mon Jun 17 08:38:11 2019 +0530
+
+    compose-vols&envs working
+
+[33mcommit 3a2d14a46c5cf6873c2d848f8beb2bac26950be1[m
+Author: Kiran <kbaddi@baddian.baddi>
+Date:   Mon Jun 17 08:34:56 2019 +0530
+
+    Compose with and vols working
+
+[33mcommit ee5104ba08a7b2528d824b0041e3f5ee7d3b12bf[m
+Author: Kiran <kbaddi@baddian.baddi>
+Date:   Mon Jun 17 07:49:04 2019 +0530
+
+    Compose with and vols working
+
+[33mcommit 3e67b388562b72d37993d8ca1ba41524e06a6046[m
+Author: Kiran <kbaddi@baddian.baddi>
+Date:   Thu Jun 13 22:35:09 2019 +0530
+
+    Dockerizing
+
+[33mcommit 9c78e72367d0d63f888109239d64f053d519da6d[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Thu Jun 13 16:52:10 2019 +0530
+
+    Master, worker nodes with cloudinit
+
+[33mcommit 20e8340d60e6716e6dd15ba0ec20095e30e14ad5[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Tue Jun 11 21:18:36 2019 +0530
+
+    SSH-Keys added
+
+[33mcommit 54046cf481365f8a2c0706ff11beb655cb338678[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Sun Jun 2 17:08:59 2019 +0530
+
+    user data fixed
+
+[33mcommit 556a8445112dcde2165faaec39759d74ae8835e4[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Mon Feb 18 18:27:20 2019 +0530
+
+    Multi SG rules Working
+
+[33mcommit 5289311d9384a6bca0e29182215af88b58aa1871[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Mon Feb 18 15:33:15 2019 +0530
+
+    multiple sgs
+
+[33mcommit e90da29ff03f12cbacdaa69f896e58ff599c2d5f[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Wed Feb 13 01:40:23 2019 +0530
+
+    duplicate file deletd
+
+[33mcommit 15188d9a5210453c32d7ba480603f198dbf39c1d[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Wed Feb 13 01:30:18 2019 +0530
+
+    duplicate file deletd
+
+[33mcommit 459c4862f3609c2725253571a6b90183c5c88340[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Wed Feb 13 01:27:10 2019 +0530
+
+    TF works
+
+[33mcommit e2ef4d18aa1c909bbe59457cfc1a8f9d87daf79b[m
+Author: Kiran Baddi <kbaddi@cognitivescale.com>
+Date:   Wed Feb 13 01:26:53 2019 +0530
+
+    TF works

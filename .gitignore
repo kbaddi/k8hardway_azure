@@ -1,0 +1,7 @@
+**/.terraform/
+**/*.tfstate*
+**/*.tfvars
+**/*.csr
+**/*.pem
+**/*.json
+**/*config
